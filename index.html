@@ -12,7 +12,9 @@
   <body ng-controller="ctrl">
 
     <div map-lazy-load="https://maps.google.com/maps/api/js" map-lazy-load-params="{{ API_KEY }}">
-        <ng-map center="37.5117158, 127.0580613" zoom="17"></ng-map>
+        
+        <ng-map disable-default-u-i="true" center="37.5117158, 127.0580613" zoom="17"></ng-map>
+
     </div>    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
